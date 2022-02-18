@@ -1,0 +1,28 @@
+body{
+    background-color: blue;
+    font-family: fantasy;
+    font-size: 25px;
+}
+#p{
+    color: red;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+div{
+    color: white;
+}
+#q1{
+    background-color: aqua;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+#q2{
+    background-color: aqua;
+    width: 400px;
+    border-radius: 10px;
+}

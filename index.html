@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Bingo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+          <center>
+            <h1>Bingo</h1>
+            <br>
+            <p>
+              Rules:This is a 2 player game. Each player will get 5 random algebraic expressions and they have to race to finish all
+              of the equations. Who ever finishs the frist and has more accuracy than the other will win. 
+            </p>
+            <p id="p">NOTE : THE SOLUTIONS PAGE LINK WILL BE GIVEN.</p>
+            <br>
+                <div class="col-md-4 col-sm-12 col-xs-12 q1" id="q1">
+                    <h4>Player 1</h4>
+                    <br>
+                    <span id="Question_1_player_1"></span><br> 
+                    <span id="Question_2_player_1"></span><br>
+                    <span id="Question_3_player_1"></span><br>
+                    <span id="Question_4_player_1"></span><br>
+                    <span id="Question_5_player_1"></span>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12" id="div">
+                 <button type="button" id="Generator" class="btn btn-success" onclick="generate()">Generate Question</button>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 q1" id="q2">
+                    <h4>Player 2</h4>
+                    <br>
+                    <span id="Question_1_player_2"></span><br> 
+                    <span id="Question_2_player_2"></span><br>
+                    <span id="Question_3_player_2"></span><br>
+                    <span id="Question_4_player_2"></span><br>
+                    <span id="Question_5_player_2"></span>
+                </div>    
+          </center>
+          <script src="main.js"></script>
+      </body>
+</html>
